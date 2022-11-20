@@ -1,4 +1,4 @@
 ---
-title: Blog
+title: Website
 layout: blog
 ---
