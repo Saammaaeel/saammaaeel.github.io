@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Germania+One:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
 
 :root {
   --gray-1: #3f3f3f;
@@ -9,6 +9,8 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --darkred-1: #8B0000;
+  --blacken-1: #000000;
 }
 * {
   font-family: inherit;
@@ -24,15 +26,15 @@
 }
 html,
 body {
-  color: var(--white-2);
-  background-color: var(--gray-6);
-  font-family: "JetBrains Mono", monospace;
+ color: var(--darkred-1);
+  background-color: var(--blacken-1);
+  font-family: "Germania One", monospace;
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--blacken-1);
 }
 .content a {
-  color: cyan;
-  border-bottom: 1px solid cyan;
+  color: maroon;
+  border-bottom: 1px solid maroon;
 }
 header {
   padding: 2rem 0 4rem 0;
@@ -41,7 +43,7 @@ header {
   font-size: 1.4rem;
   font-weight: bolder;
   line-height: 110%;
-  color: var(--white-1);
+  color: var(--darkred-1);
 }
 main {
   margin: 0 auto;
@@ -74,8 +76,8 @@ main {
 .categories .category {
   margin: 0 0.5rem 0 0;
   display: block;
-  color: var(--gray-4);
-  background: var(--white-2);
+  color: var(--darkred-1);
+  background: var(--blacken-1);
   border-radius: 15px;
   font-size: 0.7rem;
   padding: 0 0.8rem;
@@ -123,7 +125,7 @@ main {
   margin-bottom: 1.75rem;
   font-style: italic;
   font-weight: 100;
-  border-left: 0.3rem solid var(--white-2);
+  border-left: 0.3rem solid var(--darkred-1);
 }
 .content strong {
   font-weight: bold;
@@ -148,12 +150,12 @@ main {
   border-collapse: collapse;
 }
 .content table th {
-  background-color: var(--gray-3);
-  color: var(--white-2);
-  border: 1px solid var(--gray-5);
+  background-color: var(--blacken-1);
+  color: var(--darkred-1);
+  border: 1px solid var(--darkred-1);
 }
 .content table * {
-  border: 1px solid var(--gray-3);
+  border: 1px solid var(--darkred-1);
   padding: 0.2rem;
 }
 .content img {
@@ -173,16 +175,16 @@ main {
 }
 
 .content pre {
-  background: var(--gray-3) !important;
+  background: var(--darkred-1) !important;
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
 }
 
 .content code {
   padding: 3px 5px;
-  color: var(--white-2);
+  color: var(--darkred-1);
   white-space: pre;
-  background-color: var(--gray-3);
+  background-color: var(--blacken-1);
 }
 
 /* lbox */
