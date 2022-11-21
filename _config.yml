@@ -12,14 +12,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-collections_dir: all_collections
+collections_dir: all_
 collections:
   posts:
     output: true
 
 defaults:
   - scope:
-      path: "_posts"
+      path: "posts"
     values:
       layout: "post"
       permalink: /posts/:title/
