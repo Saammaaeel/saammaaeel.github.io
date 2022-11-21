@@ -9,6 +9,7 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --darkred-1: #8B0000;
 }
 * {
   font-family: inherit;
@@ -37,7 +38,7 @@ header .site-title {
   font-size: 4rem;
   font-weight: bolder;
   line-height: 110%;
-  color: var(--white-1);
+  color: var(--darkred-1);
 }
 main {
   margin: 0 auto;
