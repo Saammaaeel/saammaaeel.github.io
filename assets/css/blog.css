@@ -10,6 +10,7 @@
   --white-1: #eeeeee;
   --white-2: #a9abb3;
   --darkred-1: #8B0000;
+  --blacken-1: #0a0000;
 }
 * {
   font-family: inherit;
@@ -26,10 +27,10 @@
 html,
 body {
   color: var(--white-2);
-  background-color: var(--gray-6);
+  background-color: var(--blacken-1);
   font-family: "Germania One", monospace;
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--blacken-1);
 }
 header {
   padding: 2rem 0 4rem 0;
@@ -65,8 +66,8 @@ main {
   font-weight: 300;
 }
 #text-wrapper a {
-  color: cyan;
-  border-bottom: 1px solid cyan;
+  color: maroon;
+  border-bottom: 1px solid maroon;
 }
 #social-wrapper {
   margin-top: 1rem;
@@ -91,13 +92,13 @@ main {
 }
 .articles .article {
   padding: 2rem;
-  background: var(--gray-3);
+  background: var(--blacken-1);
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
 .articles .article .article-title,
 .articles .article .article-title a {
-  color: var(--white-2);
+  color: var(--darkred-1);
   font-weight: 100;
   font-style: italic;
   font-size: 1.4rem;
@@ -119,8 +120,8 @@ main {
 .articles .article .categories .category {
   margin: 0 0.5rem 0.3rem 0;
   display: block;
-  color: var(--gray-4);
-  background: var(--white-2);
+  color: var(--darkred-1);
+  background: var(--blacken-1);
   border-radius: 15px;
   font-size: 0.7rem;
   padding: 0 0.8rem;
