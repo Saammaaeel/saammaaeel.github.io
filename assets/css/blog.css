@@ -26,7 +26,7 @@
 }
 html,
 body {
-  color: var(--white-2);
+  color: var(--darkred-1);
   background-color: var(--blacken-1);
   font-family: "Germania One", monospace;
   line-height: 2rem;
