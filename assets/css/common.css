@@ -7,6 +7,8 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --darkred-1: #8B0000;
+  --blacken-1: #000000;
 }
 #category-modal-bg {
   position: fixed;
@@ -31,7 +33,7 @@
   border-radius: 1rem;
   padding: 1rem;
   margin: auto;
-  background: var(--gray-3);
+  background: var(--blacken-1);
   display: none;
   visibility: hidden;
   line-height: 140%;
@@ -54,7 +56,7 @@
 .modal-article,
 .modal-article-date {
   display: block;
-  color: var(--white-2);
+  color: var(--darkred-1);
 }
 .modal-article {
   margin-bottom: 0.5rem;
@@ -65,11 +67,11 @@
   font-size: 0.8rem;
 }
 .modal-article:hover {
-  background: var(--gray-4);
+  background: var(--blacken-1);
 }
 
 hr {
-  border-top: 2px dashed var(--white-2) !important;
+  border-top: 2px dashed var(--darkred-1) !important;
   border-bottom: none !important;
   border-left: none !important;
   border-right: none !important;
