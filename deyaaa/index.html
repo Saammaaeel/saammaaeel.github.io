@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deya is Love ❤️</title>
+    <link rel="icon" href="https://media1.tenor.com/m/VSxlAnMklw0AAAAC/anime-hug-for-you.gif" type="image/gif">
+
+    <link rel="stylesheet" href="./plugins/styles.css">
+
+    <script defer src="./plugins/script.js"></script>
+</head>
+<body> 
+    <div class="loader">
+        <span class="loader__element"></span>
+        <span class="loader__element"></span>
+        <span class="loader__element"></span>
+    </div>
+    
+    <div id="popupContainer">
+        <div id="popupContent">
+            <button id="closePopup"></button>
+            <h2>A Little Congratulation Note</h2>
+            <p id="note">Deyaaaaaa, It's me yudha. I just wanted to make this site for celebrating your album release(?). 
+                This is.. Umm.. You can say this is just me showing my love for you xD. <br>
+                This Page may contain some of my literary works.
+                Thankyou for visiting this site deyyy <3    
+            </p>
+           
+        </div>
+    </div>
+    
+    <button id="musicButton" onclick="initiatePlayback()">🔈</button>
+
+    <div id="heartRateControl">
+        <label for="heartRateSlider">Love-o-meter </label>
+        <input id="heartRateSlider" type="range" min="50" max="700" step="5" value="300" onchange="updateHeartRate()">
+    </div>
+
+    <audio id="bgMusic" src="your-music-file.mp3" autoplay muted></audio>
+    <button id="musicButton" style="display:none;">🔊</button>
+    <audio id="popSound" hidden><source src="./assets/pop.mp3" type="audio/mp3"></audio>
+
+    <div class="click-catcher"></div>
+
+    <header>
+        <h1 class="hero-text"></h1>
+        <p class="quote">Loading quote...</p>
+    </header>
+    
+    <canvas id="waterCanvas"></canvas>
+
+    <p class="love">Love - yudha</p>
+
+</body>
+</html>
